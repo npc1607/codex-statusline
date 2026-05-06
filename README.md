@@ -26,20 +26,6 @@ Force compact mode:
 ./bin/codex-statusline --mode compact
 ```
 
-## Config
-
-For Codex builds that support command-based status items:
-
-```toml
-[tui]
-status_line = [
-  { type = "command", command = "/Users/pcong/Project/codex-statusline/bin/codex-statusline --mode compact", ansi = false, timeout_ms = 1200 },
-  "model-with-reasoning",
-  "context-remaining",
-  "current-dir"
-]
-```
-
 ## Environment
 
 - `CODEX_USAGE_KEY`: optional explicit API key
