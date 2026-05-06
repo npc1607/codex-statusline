@@ -8,7 +8,7 @@ Go command for Codex usage stats with two output modes:
 ## Build
 
 ```bash
-cd /Users/pcong/Project/codex-statusline
+cd ~/Project/codex-statusline
 go build -o ./bin/codex-statusline ./cmd/codex-statusline
 ```
 
